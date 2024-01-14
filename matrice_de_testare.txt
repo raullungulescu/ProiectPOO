@@ -1,0 +1,67 @@
+
+    // Test de Caz 1: Creare flux nou, adăugare pași (Adaug 3 Steps: Title Step, Text Step, End Step
+    // Așteptat: Flux creat cu succes, pași adăugați și fișier salvat
+    // Executare flux și verificare analitice
+    // Așteptat: Fluxul executat fără erori, analitice afișate (aici afiseaza intr-un fisier care poarta numele flow-ului, dar doar analisticile pentru flow respectiv, adica numarul de pasi, pasi care au skip, si o lista cu la ce pasi s-a dat skip in flow si erorile dintr-un step)
+
+    // Test de Caz 2: Vizualizare fluxuri existente
+    // Așteptat: Listă de fluxuri existente afișată (aici se afiseaza numele flow-urilor) - valid
+
+    // Test de Caz 3: Rulare flux existent
+    // Așteptat: Fluxul executat fără erori -valid
+
+    // Test de Caz 4: Ștergere flux existent
+    // Așteptat: Flux șters cu succes, mesaj de confirmare afișat - valid
+
+    // Test de Caz 5: Încercare de a rula un flux șters
+    // Așteptat: Mesajul "Fluxul nu a fost găsit"  - valid
+
+    // Test de Caz 6: Creare flux nou cu pași invalidi
+    // Așteptat: Mesaje de eroare pentru tipuri de pași sau indici invalizi- valid
+
+    // Test de Caz 7: Creare flux cu : InputTextStep, InputNumberStep, EndStep
+    // Așteptat: Intrare preluată cu succes, fluxul executat fără erori - valid
+
+    // Test de Caz 8: Creare flux cu : InputTextStep, InputNumberStep, EndStep
+    // Așteptat: Pas de afișare executat cu succes, conținutul fișierului afișat - valid
+
+    // Test de Caz 9: Run flux cu : InputTextStep, InputNumberStep, EndStep
+    // Așteptat: Mesaje de eroare pentru avertizare de a introduce in run un text, respectiv numar - valid
+
+    // Test de Caz 10: Creare flux cu pași de calcul și verificare a rezultatului calculat
+    // Așteptat: - nu preia inputul de la NumberInput(o sa ii dam skip) -invalid
+
+    // Test de Caz 11: Run flux cu Calculuss Step
+    // Așteptat: nu functioneaza - am facut acest pas doar ca sa implementez un template
+
+    // Test de Caz 12: Creare de flux cu DisplayStep si EndStep
+    // Așteptat: Fluxuri create cu succes valid
+
+    // Test de Caz 13: Run flux cu DisplayStep si EndStep
+    // Așteptat: DisplayStep arata continutul unui fisier text - valid
+
+    // Test de Caz 14: Creare flux cu pas de intrare de fișier TXT și verificare a fișierului TXT creat 
+    // Așteptat: Pasul de intrare de fișier TXT executat cu succes, fișierul TXT creat
+
+    // Test de Caz 15: Run FileTextInputStep
+    // Așteptat: Pasul de intrare de fișier text executat cu succes, fișierul text creat si poti adauga continut in el - valid
+
+    // Test de Caz 16: Creare flux cu pas de intrare de fișier CSV și verificare a fișierului CSV creat 
+    // Așteptat: Pasul de intrare de fișier CSV executat cu succes, fișierul CSV creat si poti adauga continut in el - valid
+
+    // Test de Caz 17: Creeare flux cu OutputStep si EndStep
+    // Așteptat: creaza un fisier cu nume, titlu, si o descriere a unui pas anterior - valid
+
+    // Test de Caz 18: Run flux cu OutputStep si EndStep
+    // Așteptat: afiseaza numele fisierului pentru a fi vizualizat -valid
+
+  // Test de Caz 19: Vizualizare analytisc
+    // Așteptat: Detaliile despre un flux, nu am reusit sa adaug eroarea medie pe step si timpul de inceput a unui flow.
+
+    // Test de Caz 20: Vizualizare detaliu flux specific
+    // Așteptat: Detaliile fluxului afișate -valid
+
+    // Test de Caz 21: Ieșire din program
+    // Așteptat: Programul se încheie -valid
+
+ 
